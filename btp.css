@@ -2,13 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-body, header, main, footer {
-  margin:0;
-  padding:0;
+body,
+header,
+main,
+footer {
+  margin: 0;
+  padding: 0;
 }
 
 nav.header {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
@@ -18,91 +21,95 @@ nav {
 }
 
 nav span {
-  margin-top:20px;
-  margin-bottom:20px;
-  text-decoration:none;
-  font-size:30px;
-  color:#D35400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #D35400;
   font-family: 'Black Ops One', cursive;
 
 }
 
 nav a {
-  margin-top:20px;
-  margin-bottom:20px;
-  text-decoration:none;
-  font-size:30px;
-  color:#F39C12;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #F39C12;
   font-family: 'Alfa Slab One', cursive;
 }
 
-nav a:hover, div#mainp section a:hover {
-  color:#F4D03F;
+nav a:hover,
+div#mainp section a:hover {
+  color: #F4D03F;
 }
 
 div#mainp {
-  font-size:20px;
+  font-size: 20px;
   font-family: 'Oswald', sans-serif;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-div#mainp section p, div.mainp section#histoire a{
-  color:#D35400;
-  text-align:center;
+div#mainp section p,
+div.mainp section#histoire a {
+  color: #D35400;
+  text-align: center;
 }
 
 section#histoire {
-  border-bottom:2px solid gray;
-  margin-bottom:20px;
+  border-bottom: 2px solid gray;
+  margin-bottom: 20px;
 }
 
 section#outils {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top:40px;
+  margin-top: 40px;
 }
 
-section#outils img{
+section#outils img {
   width: 200px;
   height: 200px;
-  box-shadow:0px 0px 20px 0px black;
-  margin-bottom:40px;
+  box-shadow: 0px 0px 20px 0px black;
+  margin-bottom: 40px;
 }
 
 section#direction {
-  align-items:center;
-  text-align:center;
-  margin-top:20px;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
 }
 
-section#direction img {
-  border-radius:5px;
-  box-shadow:0px 0px 20px 0px black;
+section#direction img:hover {
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px black;
+  transform: scale(1.2);
 }
+
 
 main div#maina {
-  margin-top:1px;
+  margin-top: 1px;
   background: url(images/btpaccueil.jpg);
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   position: relative;
   font-family: 'Oswald', sans-serif;
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-  text-align:center;
-  align-items:center;
-  font-size:30px;
-  color:#D35400;
-  box-shadow: inset 0 0 0 1000px rgba(255,255,255,.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  color: #D35400;
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, .7);
 }
 
 div#maina img {
-  width:700px;
-  height:400px;
-  border-radius:5px;
+  width: 700px;
+  height: 400px;
+  border-radius: 5px;
   filter: brightness(0.75) contrast(1) sepia(0.5) hue-rotate(-5deg) saturate(3.5);
   transition: filter 1s;
 }
@@ -113,56 +120,50 @@ div#maina img:hover {
 }
 
 p#first {
-  margin-bottom:30px;
-}
-
-p#second {
-
-}
-
-p#third {
-
+  margin-bottom: 30px;
 }
 
 main div#maina p u:hover {
-  color:#F4D03F;
+  color: #F4D03F;
 }
 
 main {
   font-family: 'Oswald', sans-serif;
-  color:#D35400;
+  color: #D35400;
 }
 
 main#e h1 {
   font-family: 'Oswald', sans-serif;
-  color:#D35400;
-  font-size:40px;
-  text-align:center;
+  color: #D35400;
+  font-size: 40px;
+  text-align: center;
   text-decoration: underline;
 }
 
 section#profilw {
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-between;
+  justify-content: space-between;
+  margin-bottom: 100px;
+
 }
 
 section.profil {
   font-family: 'Oswald', sans-serif;
-  color:#D35400;
+  color: #D35400;
   width: 500px;
   height: 300px;
-  text-align:center;
-  font-size:25px;
+  text-align: center;
+  font-size: 25px;
 }
 
 section.profil figure {
-  background-color:#D35400;
-  padding-top:10px;
-  padding-bottom:10px;
-  border:2px solid #F39C12;
-  border-radius:20px;
+  background-color: #D35400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #F39C12;
+  border-radius: 20px;
 }
 
 section.profil figure img {
@@ -172,114 +173,216 @@ section.profil figure img {
 }
 
 section.profil figure figcaption {
-  color:#F39C12;
+  color: #F39C12;
 }
 
 main#r h1 {
-  font-size:50px;
-  text-align:center;
-  text-decoration:underline;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
 }
 
-main#r h2, main#r h3 {
-  font-size:30px;
+main#r h2,
+main#r h3 {
+  font-size: 30px;
 }
 
 section.flex {
-  display:flex;
+  display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 section.flex img {
   width: 300px;
   height: 200px;
-  margin:20px;
+  margin: 20px;
   border-radius: 20px;
-  box-shadow:0px 0px 10px 5px black;
+  box-shadow: 0px 0px 10px 5px black;
+}
+
+section.flex img:hover {
+  transform: scale(1.2);
+  transition-delay: 200ms;
+
 }
 
 main#c {
-  height: 600px;
+  height: 77vh;
 }
 
 section#form {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top:30px;
+  height: 100%;
 }
 
 section#form form.form {
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  text-align:center;
-  width:600px;
-
+  width: 600px;
   background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
-  background-color:#F4D03F;
+  background-color: #F4D03F;
+  padding: 20px;
+  margin: 2%;
 }
 
-label, input {
-  text-align:center;
-  display:inline;
-  width:350px;
+
+
+label,
+input {
+  display: inline;
+  width: 350px;
   align-self: center;
 }
 
 textarea {
-  height: 200px;
+  height: 150px;
   width: 350px;
-  align-self:center;
+  align-self: center;
 }
 
 form.form input#bton {
   height: 40px;
   width: 100px;
-  align-self:center;
-  margin-bottom:20px;
+  align-self: center;
+  margin-bottom: 20px;
 }
 
 footer {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-content: baseline;
   box-shadow: 0px -8px 5px 0px gray;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 footer section.titre {
-  font-size:30px;
-  color:#D35400;
+  font-size: 30px;
+  color: #D35400;
   font-family: 'Black Ops One', cursive;
 }
 
 footer section.infos {
   font-family: 'Oswald', sans-serif;
-  font-size:30px;
-  display:flex;
+  font-size: 30px;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-top: 12%;
+  height: 20vh;
 }
 
 section.titre {
-  margin-top:60px;
+  margin-top: 38px;
 }
 
 section.infos a {
-  text-decoration:none;
-  color:#F39C12;
+  text-decoration: none;
+  color: #F39C12;
 
 }
 
 section.infos a:hover {
-  color:#F4D03F;
+  color: #F4D03F;
 
 }
 
 section.infos section a img {
-  width:40px;
-  height:40px;
+  width: 40px;
+  height: 40px;
+}
+
+/*j*/
+
+.infos_container {
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.span_info {
+  font-size: 30px;
+  color: #D35400;
+  font-family: 'Black Ops One', cursive;
+
+
+}
+
+/*j*/
+.left_part_footer {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+
+}
+
+.signature_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.article_signature {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%;
+  height: 20vh;
+  align-items: center;
+  padding-top: 12%;
+  font-family: 'Zenzai-Itacha.ttf';
+  font-size: 1em;
+}
+
+.img_dimension_signature {
+  height: 80px;
+  width: 80px;
+}
+
+.nav_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+}
+
+.article_nav_footer a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #F39C12;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.article_nav_footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+/*fonts*/
+@font-face {
+  font-family: 'Zenzai-Itacha.ttf';
+  src: url(fonts/Zenzai-Itacha.ttf);
+  /*j presentation*/
+}
+
+#select_width {
+  width: 360px;
+  margin-left: 120px;
+
+}
+
+option {
+  text-align: center;
 }
